@@ -28,11 +28,14 @@
 <body>
     <!-- main content -->
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
-        <header class="flex pt-10 mb-20">
+        <header class="pt-10 mb-20 ">
 
+            
+            <!-- banner section -->
+           <section class="md:flex ">
             <!-- text content -->
 
-             <div >
+            <div >
                 <h1 class="text-5xl md:text-7xl">It's good <br> 
                     tea time at The <br> Tea House</h1>
                     <br>
@@ -45,14 +48,14 @@
 
              <!-- image content -->
 
-            <div class="relative" >
+            <div class="relative overflow-hidden" >
                 <!-- image -->
                  <div>
                     <img class="w-full" src="./images/banner.png" alt="">
                  </div>
 
                  <!-- card -->
-                  <div class=" absolute flex  items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg left-8 bottom-32 ">
+                  <div class=" absolute flex  items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg left-8 top-64 md:top-48  ">
                     <!-- icon -->
                      
                     <div> <i class="fa-solid fa-star text-amber-500"></i></div>
@@ -65,17 +68,75 @@
                       </div>
                   </div>
 
+                  <div >                    
+                </div>                 
 
-                  <div >
-                    
+            </div>
+
+           </section>          
+        
+        </header>
+
+          <!-- our featured products -->
+          <section class="py-8 md:py-14 lg:py-24">
+           <!-- title  -->
+           <div class=" text-center mb-8">
+            <h2 class="font-bold text-3xl md:text-4xl lg:text-5xl mb-5">Our Featured Products</h2>
+            <p class="text-gray-500 max-w-xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+           </div>
+
+           <!-- grid card -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+             <!-- product card    -->
+             
+             <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                <img class="mx-auto pt-4" src="./images/tea-1.png" alt="">
+                <div class="p-6">
+                    <h2 class="font-bold text-xl">Milk Tea</h2>
+                    <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
                 </div>
+                
 
-                  
+              </div>
+              <!-- card-2 -->
+              <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                <img class="mx-auto pt-4" src="./images/tea-2.png" alt="">
+                <div class="p-6">
+                    <h2 class="font-bold text-xl">Black Tea</h2>
+                    <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+                </div>
+                
+
+              </div>
+              <!-- card-3 -->
+              <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                <img class="mx-auto pt-4" src="./images/tea-3.png" alt="">
+                <div class="p-6">
+                    <h2 class="font-bold text-xl">Lemon Tea</h2>
+                    <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+                </div>
+                
+
+              </div>
+              <!-- card-4 -->
+              <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                <img class="mx-auto pt-4" src="./images/tea-4.png" alt="">
+                <div class="p-6">
+                    <h2 class="font-bold text-xl">Green Tea</h2>
+                    <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+                </div>
+                
+
+              </div>
 
             </div>
 
 
-        </header>
+
+          </section>
+
+
+
     </main>
 
 </body>
